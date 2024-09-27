@@ -1,7 +1,15 @@
-import Home from './components/Home/Home'
+import MainContainer from "@/containers";
+import MainRoute from "@/router";
+import { BrowserRouter as Router } from "react-router-dom";
 
 const App = () => {
-  return <Home />
-}
+  return (
+    <Router>
+      <MainContainer>
+        <MainRoute />
+      </MainContainer>
+    </Router>
+  );
+};
 
-export default App
+export default App;
