@@ -1,0 +1,11 @@
+/* eslint-disable */
+// console.log(`Mode => ${process.env.REACT_APP_MODE}`);
+const Constants = {
+  // SERVER_URL: process.env.REACT_APP_BACKEND_API_PRIVATE_BASE_URL,
+  // TECH_ASSESSMENT_SERVER_URL: process.env.REACT_APP_PYTHON_API_PRIVATE_BASE_URL_,
+  // MOCK_INTERVIEW_SERVER_URL: process.env.REACT_APP_MOCK_INTERVIEW_API_PRIVATE_BASE_URL,
+  // TECHNICAL_INTERVIEW_SERVER_URL: process.env.REACT_APP_TECHNICAL_INTERVIEW_API_PRIVATE_BASE_URL,
+  // SECRET_HASH_KEY: process.env.REACT_APP_SECRET_KEY,
+};
+
+export default Constants;

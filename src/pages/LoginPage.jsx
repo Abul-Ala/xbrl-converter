@@ -1,8 +1,5 @@
-import React from "react";
+import Login from "@/containers/Login";
 
-const LoginPage = () => {
-  console.log("LoginPag");
-  return <div>LoginPage</div>;
-};
+const LoginPage = () => <Login/>;
 
 export default LoginPage;
